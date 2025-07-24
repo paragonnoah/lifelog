@@ -1,0 +1,4 @@
+// ignore: constant_identifier_names
+const String SUPABASE_URL = 'https://lmhmpkvjiklvsmyfftbu.supabase.co';
+// ignore: constant_identifier_names
+const SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImxtaG1wa3ZqaWtsdnNteWZmdGJ1Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTMzNDg3NzYsImV4cCI6MjA2ODkyNDc3Nn0.Y9LlVFJvguz-i5CEiGuzRmvpQNtgEyK42yXUF8d06gY';
