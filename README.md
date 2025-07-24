@@ -188,15 +188,17 @@ Log in with a test user (e.g., `paragonnoah@gmail.com` with your set password).
 
 ```
 lib/
-├── main.dart           # App entry point and Supabase initialization
-├── constants.dart      # App-wide constants (e.g., colors, strings)
-├── screens/
-│   ├── auth_gate.dart  # Handles authentication state
-│   ├── login_page.dart # Login UI
-│   ├── home_page.dart  # Main screen with entry list
-│   ├── create_entry.dart # Entry creation screen
-│   ├── entry_detail.dart # Read-only entry view
-│   └── mood_picker.dart # Mood selection widget
+├── main.dart              # App entry point
+├── constants.dart         # Shared constants like colors, paddings
+├── widgets/               # Reusable UI components
+│   └── mood_picker.dart   # Emoji mood selector
+├── screens/               # Pages/screens of the app
+│   ├── auth_gate.dart     # Checks user auth status
+│   ├── login_page.dart    # Supabase login
+│   ├── home_page.dart     # List of entries
+│   ├── create_entry.dart  # Add mood + journal text
+│   ├── entry_detail.dart  # Full view of a single journal entry
+
 ```
 
 ---
